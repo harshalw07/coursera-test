@@ -1,0 +1,83 @@
+body{
+    
+    font-family: cursive;
+}
+h1 {
+    text-align: center;
+}
+
+.container{
+    background-color:rgb(153,153,153) ;
+    margin: 1.5%;
+    padding: 1rem;
+    /* font-size: 1.5rem; */
+    border: solid black;
+    align-self: center;
+    padding-top: 4rem;
+    position: relative;
+}
+
+
+.tag{
+    font-size: 1.5rem;
+    width: 8rem;
+    border: solid black;
+    border-top: 0;
+    border-right: 0;
+    padding: 0.2rem 0.3rem;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.one{
+    background-color:rgb(213,152,152) ;
+
+}
+
+.two{
+    background-color:rgb(193,69,67) ;
+    color: white;
+
+}
+
+.three{
+    background-color:rgb(229,209,152) ;
+
+}
+
+
+@media (min-width:992px) {
+    .a, .b, .c {
+        float: left;
+    }
+    .a{
+        width: 26vw;
+    }
+
+    .b{
+        width:26vw;
+    }
+    .c{
+        width:26vw;
+    }
+
+    
+}
+
+@media (min-width:768px) and (max-width: 991px ){
+    .a, .b, .c {
+        float: left;
+    }
+    .a{
+        width: 40%;
+    }
+
+    .b{
+        width:40%;
+    }
+    .c{
+        width:87%;
+    }
+}
